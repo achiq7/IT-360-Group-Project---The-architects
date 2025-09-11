@@ -1,2 +1,2 @@
 # IT-360-Group-Project---The-architects
-Timeline Creator – Tool will create a basic timeline tracker or system activities
+Timeline Creator – Tool will create a basic timeline tracker for system activities
