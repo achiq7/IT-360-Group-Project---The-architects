@@ -1,0 +1,17 @@
+#Alyssa Chiquito
+#IT360 group project start
+#11-04-2025
+#IT 360 Section 01
+import cvs;
+from datetime import datetime;
+
+#reading file 
+def read_file(filename){
+    #opens filename into foFile 
+    with open(filename, 'r') as foFile:
+        data = foFile.readlines()#foFile is read into data variable
+        for lines in data:#goes through data individually and places it into lines variable
+            print(lines)#print lines individually as data is available
+}
+
+
