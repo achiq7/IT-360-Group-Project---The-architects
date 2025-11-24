@@ -4,31 +4,32 @@ IT360 group project start
 11-04-2025
 IT 360 Section 01
 """
+import os.path;
 import cvs;
 from datetime import datetime;
 """
 class for parsing through data
 """
 class dataParser{
-    # reading file
+    # reading textfile to list
     def readFile(filename){
-    #opens filename into foFile 
+    #opens textfile into foFile 
     with open(filename, 'r') as foFile{ 
-        data = foFile.readlines()#foFile is read into data variable
-        for lines in data{#goes through data individually and places it into lines variable
-            print(lines)#print lines individually as data is available
+        data =[] #create list named data
+        for line in foFile.readlines(){#for loop read foFile line into line
+            data.append(line.strip("\n"))#appends to data variable each time from line variable
         }
-        
+        print(data)#print what data list        
     }
     }
-    #11-17-2025
-    def findDate(data){
+    
+    def findDate(data){#list of the read file contents
         #splits up data
-        dates=dates.split()
+        dates=data.split()
         #for loop to check dates data
         for date in dates{
             #assuming data begins with the date
-            if word.length() >= 10 and word[4] == '-' and word[7] == '-'{
+            if word.length() >= 14 and word[4] == '-' and word[7] == '-'{
                 #anything from 0-10 chars are stored in wholeDate
                 wholeDate=word[:10]
                 return wholeDate
@@ -46,19 +47,9 @@ class dataParser{
         }
     }
 
-    def printResults(organizedD){
-        print("\n" + "~"*50)
-        print("TIMELINE BY DATE")
-        print("~"*50 + "\n")
+    def printReport(organizedD){
+       
         
-        for date in organizedD[date]{
-            print("\nDate: " )
-            print("\nNumber of events: ")
-            for event in organizedD[date]{
-                print()
-            }
-            
-        }
     }
 
 
