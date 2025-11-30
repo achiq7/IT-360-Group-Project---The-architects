@@ -7,48 +7,55 @@ IT 360 Section 01
 import os.path;
 import cvs;
 from datetime import datetime;
+import re;
 """
 class for parsing through data
 """
+
 class dataParser{
     # reading textfile to list
     def readFile(filename){
-    #opens textfile into foFile 
-    with open(filename, 'r') as foFile{ 
-        data =[] #create list named data
-        for line in foFile.readlines(){#for loop read foFile line into line
-            data.append(line.strip("\n"))#appends to data variable each time from line variable
+         data =[] #create list named data
+        #opens textfile into foFile 
+         with open(filename, 'r') as foFile{ 
+        
+            for line in foFile.readlines(){#for loop read foFile line into line
+                 data.append(line.strip("\n"))#appends to data variable each time from line variable
+             }
+            return data #return what data list        
         }
-        print(data)#print what data list        
-    }
     }
     
-    def findDate(data){#list of the read file contents
-        #splits up data
-        dates=data.split()
+    def findDate(logFile){#list of the read file contents
         #for loop to check dates data
-        for date in dates{
-            #assuming data begins with the date
-            if word.length() >= 14 and word[4] == '-' and word[7] == '-'{
-                #anything from 0-10 chars are stored in wholeDate
-                wholeDate=word[:10]
-                return wholeDate
-            }
-        return None
+        for date in logFile{
+            fullDate=logFile[:14]
+        return fullDate
         }
     }
     #organize based on date
-    def organizeByDate(manyData){
-        organized = {}#create dictionary to hold all data
+    def organizeByDate(logFile){
+        organizedLogs = {}#create dictionary to hold all data
         
-        for data in manyData{ #loop to check out manyData data
-            date = findDate(data) #
-            if date 
+        if not logFile{
+            return "Please enter a log:)"
+        }
+
+        for dates in logFile.strip().split('\n'){ #loop to check out manyData data
+            if dates
         }
     }
 
-    def printReport(organizedD){
-       
+    def printReport(data){
+       with open(data, 'w') as report{
+        report.write('~' * 60)
+        report.write('Logs Organized by Date\n')
+        report.write('~' * 60 +'\n')
+
+        for i in data{
+            report.write(data[i])
+        }
+       }
         
     }
 
