@@ -35,29 +35,42 @@ class dataParser{
     }
     #organize based on date
     def organizeByDate(logFile){
-        organizedLogs = {}#create dictionary to hold all data
+        organizedLogs = []#create list to hold all data
         
-        if not logFile{
-            return "Please enter a log:)"
-        }
+        for entry in logFile{
+            breakUp = entry.split(maxsplit=3)
 
-        for dates in logFile.strip().split('\n'){ #loop to check out manyData data
-            if dates
+            if len(breakUp) >= 4{
+            month = breakUp[0]
+            day = breakUp[1]
+            time = breakUp[2]
+            otherData = breakUp[3]
+
+            dateString = month + " " + day + " " + time
+            
         }
+        }
+       
+
+        
+        
     }
-
+    #create report with given data list
     def printReport(data){
+        #write a textfile
        with open(data, 'w') as report{
-        report.write('\n~' * 60)
-        report.write('Logs Organized by Date\n')
-        report.write('~' * 60 +'\n')
-
-        for i in data{
-            report.write(data[i])
+        report.write('\n~' * 60)#formatting
+        report.write('Logs Organized by Date\n')#title
+        report.write('~' * 60 +'\n')#formatting
+        #for loop goes through organized by date data
+        for i in organizedByDate(data){
+            report.write(organizedByDate(data[i]))#writes it line by line to the new texfile
         }
        }
         
     }
+
+
 
 
 }
