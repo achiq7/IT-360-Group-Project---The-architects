@@ -33,36 +33,38 @@ class dataParser{
         return fullDate
         }
     }
-    #organize based on date
+    #organize based on date, use list 
     def organizeByDate(logFile){
-        organizedLogs = []#create list to hold all data
-        
+        organizedLogs = []#create dictionary to hold all data
+        #for loop through given data using new variable
         for entry in logFile{
-            breakUp = entry.split(maxsplit=3)
-
+            breakUp = entry.split(maxsplit=3) #split entry into 3 parts
+            #if length of breakUp is greater than or equal to 4
             if len(breakUp) >= 4{
-            month = breakUp[0]
-            day = breakUp[1]
-            time = breakUp[2]
-            otherData = breakUp[3]
+            month = breakUp[0]#month is first portion
+            day = breakUp[1]#day is second portion
+            time = breakUp[2]#time is third section
+            otherData = breakUp[3]#following data is forth section
 
-            dateString = month + " " + day + " " + time
-            officialD = datetime.strptime(dateString, "%b %d %H:%M:%S")
+            dateString = month + " " + day + " " + time #create string to hold entirety of date
+            officialD = datetime.strptime(dateString, "%b %d %H:%M:%S")#formatting for complete date using the previous variable
 
-            organizedLogs.append({
+            organizedLogs.append({#adding date to dictionary
                 'datetime': officialD,
                 'date': officialD.date(),
                 'time': officialD.time(),
-                'month': officialD.month
+                'month': month,
+                'day': day,
+                'timestamp': time,
+                'otherData': otherData.
+
             })
-
-
-
+            organizedLogs.sort(key=lambda x: x['datetime'])#sort the dictionary
+            return organizedLogs
+            }
         }
-        }
-       
-
     }
+
     #create report with given data list
     def printReport(data){
         #write a textfile
