@@ -6,7 +6,7 @@ IT 360 Section 01
 import os.path;
 import cvs;
 from datetime import datetime;
-import re;
+
 """
 class for parsing through data
 """
@@ -35,7 +35,7 @@ class dataParser{
     }
     #organize based on date, use list 
     def organizeByDate(logFile){
-        organizedLogs = []#create dictionary to hold all data
+        organizedLogs = []#create list to hold all data
         #for loop through given data using new variable
         for entry in logFile{
             breakUp = entry.split(maxsplit=3) #split entry into 3 parts
@@ -76,13 +76,8 @@ class dataParser{
         for i in organizedByDate(data){
             report.write(organizedByDate(data[i]))#writes it line by line to the new texfile
         }
-       }
-        
+       }   
     }
-
-
-
-
 }
 
 
