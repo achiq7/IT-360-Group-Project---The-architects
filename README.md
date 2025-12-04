@@ -45,6 +45,11 @@ We created a Forensics Timeline Builder tool that can be used to help accelerate
     - Split report evenly
     - README file
     - Presentation slides
+- Justin
+    -Presentation Slides
+    -Sources
+    -Set up Team meetings
+  
 
 # Video Link
 https://youtu.be/Fc7z2dKXolU
