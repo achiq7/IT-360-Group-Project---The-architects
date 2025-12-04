@@ -1,0 +1,194 @@
+datetime,date,time,host,message
+2025-08-05 09:52:40,2025-08-05,09:52:40,kali,systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+2025-08-05 09:52:43,2025-08-05,09:52:43,kali,systemd[659]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-05 09:52:43,2025-08-05,09:52:43,kali,systemd[659]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 09:52:43,2025-08-05,09:52:43,kali,systemd[659]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 09:52:43,2025-08-05,09:52:43,kali,systemd[659]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 09:52:43,2025-08-05,09:52:43,kali,systemd[659]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 09:52:43,2025-08-05,09:52:43,kali,systemd[659]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-05 10:12:17,2025-08-05,10:12:17,kali,systemd[841]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-05 10:12:17,2025-08-05,10:12:17,kali,systemd[841]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 10:12:17,2025-08-05,10:12:17,kali,systemd[841]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 10:12:17,2025-08-05,10:12:17,kali,systemd[841]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 10:12:17,2025-08-05,10:12:17,kali,systemd[841]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-05 10:12:17,2025-08-05,10:12:17,kali,systemd[841]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 10:12:18,2025-08-05,10:12:18,kali,gpg-agent[989]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-08-05 10:12:18,2025-08-05,10:12:18,kali,gpg-agent[989]: listening on: std=3 extra=5 browser=6 ssh=4
+2025-08-05 10:12:18,2025-08-05,10:12:18,kali,gpg-agent[994]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-08-05 10:12:18,2025-08-05,10:12:18,kali,gpg-agent[994]: listening on: std=3 extra=5 browser=6 ssh=4
+2025-08-05 10:12:27,2025-08-05,10:12:27,kali,systemd[659]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 10:12:27,2025-08-05,10:12:27,kali,systemd[659]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 10:12:27,2025-08-05,10:12:27,kali,systemd[659]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 10:12:27,2025-08-05,10:12:27,kali,systemd[659]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-05 10:12:27,2025-08-05,10:12:27,kali,systemd[659]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 14:37:59,2025-08-05,14:37:59,kali,"systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local)."
+2025-08-05 14:37:59,2025-08-05,14:37:59,kali,"systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK)."
+2025-08-05 14:37:59,2025-08-05,14:37:59,kali,systemd[1]: Reached target ssh-access.target - SSH Access Available.
+2025-08-05 14:37:59,2025-08-05,14:37:59,kali,systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+2025-08-05 14:38:02,2025-08-05,14:38:02,kali,systemd[697]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-05 14:38:02,2025-08-05,14:38:02,kali,systemd[697]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 14:38:02,2025-08-05,14:38:02,kali,systemd[697]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 14:38:02,2025-08-05,14:38:02,kali,systemd[697]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 14:38:02,2025-08-05,14:38:02,kali,systemd[697]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 14:38:02,2025-08-05,14:38:02,kali,systemd[697]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-05 14:38:14,2025-08-05,14:38:14,kali,systemd[812]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-05 14:38:14,2025-08-05,14:38:14,kali,systemd[812]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 14:38:14,2025-08-05,14:38:14,kali,systemd[812]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 14:38:14,2025-08-05,14:38:14,kali,systemd[812]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 14:38:14,2025-08-05,14:38:14,kali,systemd[812]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-05 14:38:14,2025-08-05,14:38:14,kali,systemd[812]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 14:38:15,2025-08-05,14:38:15,kali,gpg-agent[959]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-08-05 14:38:15,2025-08-05,14:38:15,kali,gpg-agent[959]: listening on: std=3 extra=6 browser=5 ssh=4
+2025-08-05 14:38:15,2025-08-05,14:38:15,kali,gpg-agent[964]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-08-05 14:38:15,2025-08-05,14:38:15,kali,gpg-agent[964]: listening on: std=3 extra=6 browser=5 ssh=4
+2025-08-05 14:38:23,2025-08-05,14:38:23,kali,systemd[697]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 14:38:23,2025-08-05,14:38:23,kali,systemd[697]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 14:38:23,2025-08-05,14:38:23,kali,systemd[697]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 14:38:24,2025-08-05,14:38:24,kali,systemd[697]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-05 14:38:24,2025-08-05,14:38:24,kali,systemd[697]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 14:44:45,2025-08-05,14:44:45,kali,"systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local)."
+2025-08-05 14:44:45,2025-08-05,14:44:45,kali,"systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK)."
+2025-08-05 14:44:45,2025-08-05,14:44:45,kali,systemd[1]: Reached target ssh-access.target - SSH Access Available.
+2025-08-05 14:44:45,2025-08-05,14:44:45,kali,systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+2025-08-05 14:44:47,2025-08-05,14:44:47,kali,systemd[644]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-05 14:44:47,2025-08-05,14:44:47,kali,systemd[644]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-05 14:44:47,2025-08-05,14:44:47,kali,systemd[644]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-05 14:44:47,2025-08-05,14:44:47,kali,systemd[644]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-05 14:44:47,2025-08-05,14:44:47,kali,systemd[644]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-05 14:44:47,2025-08-05,14:44:47,kali,systemd[644]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,systemd[30602]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,systemd[30602]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,systemd[30602]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,systemd[30602]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,systemd[30602]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,systemd[30602]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,gpg-agent[30750]: using fd 5 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,gpg-agent[30750]: listening on: std=3 extra=6 browser=4 ssh=5
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,gpg-agent[30755]: using fd 5 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-08-14 11:06:07,2025-08-14,11:06:07,kali,gpg-agent[30755]: listening on: std=3 extra=6 browser=4 ssh=5
+2025-08-14 11:06:17,2025-08-14,11:06:17,kali,systemd[644]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-14 11:06:17,2025-08-14,11:06:17,kali,systemd[644]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-14 11:06:17,2025-08-14,11:06:17,kali,systemd[644]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2025-08-14 11:06:17,2025-08-14,11:06:17,kali,systemd[644]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-08-14 11:06:17,2025-08-14,11:06:17,kali,systemd[644]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2025-08-14 14:06:49,2025-08-14,14:06:49,kali,systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+2025-08-14 14:06:51,2025-08-14,14:06:51,kali,charon[128976]: 00[LIB] loaded plugins: charon random nonce x509 revocation constraints pubkey pkcs1 pkcs7 dnskey sshkey pem openssl pkcs8 agent gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+2025-08-14 14:06:51,2025-08-14,14:06:51,kali,ipsec[128976]: 00[LIB] loaded plugins: charon random nonce x509 revocation constraints pubkey pkcs1 pkcs7 dnskey sshkey pem openssl pkcs8 agent gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+2025-08-14 14:06:51,2025-08-14,14:06:51,kali,charon[129178]: 00[LIB] loaded plugins: charon random nonce x509 revocation constraints pubkey pkcs1 pkcs7 dnskey sshkey pem openssl pkcs8 agent gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+2025-08-14 14:08:32,2025-08-14,14:08:32,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:32,2025-08-14,14:08:32,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:32,2025-08-14,14:08:32,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:32,2025-08-14,14:08:32,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:36,2025-08-14,14:08:36,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:36,2025-08-14,14:08:36,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:37,2025-08-14,14:08:37,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:37,2025-08-14,14:08:37,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:38,2025-08-14,14:08:38,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:08:38,2025-08-14,14:08:38,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:23,2025-08-14,14:09:23,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:23,2025-08-14,14:09:23,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:23,2025-08-14,14:09:23,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:23,2025-08-14,14:09:23,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:26,2025-08-14,14:09:26,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:26,2025-08-14,14:09:26,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:26,2025-08-14,14:09:26,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:26,2025-08-14,14:09:26,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:27,2025-08-14,14:09:27,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:27,2025-08-14,14:09:27,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:27,2025-08-14,14:09:27,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:27,2025-08-14,14:09:27,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:35,2025-08-14,14:09:35,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:35,2025-08-14,14:09:35,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:35,2025-08-14,14:09:35,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:35,2025-08-14,14:09:35,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:36,2025-08-14,14:09:36,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:36,2025-08-14,14:09:36,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:36,2025-08-14,14:09:36,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:36,2025-08-14,14:09:36,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:37,2025-08-14,14:09:37,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:37,2025-08-14,14:09:37,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:37,2025-08-14,14:09:37,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:37,2025-08-14,14:09:37,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:44,2025-08-14,14:09:44,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:44,2025-08-14,14:09:44,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:46,2025-08-14,14:09:46,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:46,2025-08-14,14:09:46,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:46,2025-08-14,14:09:46,kali,"systemd[1]: sshd-vsock.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-14 14:09:46,2025-08-14,14:09:46,kali,"systemd[1]: sshd-unix-local.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted."
+2025-08-19 11:50:28,2025-08-19,11:50:28,kali,"systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local)."
+2025-08-19 11:50:28,2025-08-19,11:50:28,kali,"systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK)."
+2025-08-19 11:50:28,2025-08-19,11:50:28,kali,systemd[1]: Reached target ssh-access.target - SSH Access Available.
+2025-08-19 11:50:28,2025-08-19,11:50:28,kali,systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+2025-08-19 11:50:34,2025-08-19,11:50:34,kali,systemd[694]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-08-19 11:50:34,2025-08-19,11:50:34,kali,systemd[694]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-08-19 11:50:34,2025-08-19,11:50:34,kali,systemd[694]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-08-19 11:50:34,2025-08-19,11:50:34,kali,systemd[694]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-08-19 11:50:34,2025-08-19,11:50:34,kali,systemd[694]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-08-19 11:50:34,2025-08-19,11:50:34,kali,systemd[694]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,systemd[198455]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,systemd[198455]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,systemd[198455]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,systemd[198455]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,systemd[198455]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,systemd[198455]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,gpg-agent[198604]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,gpg-agent[198604]: listening on: std=3 extra=5 browser=6 ssh=4
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,gpg-agent[198609]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+2025-10-14 09:58:41,2025-10-14,09:58:41,kali,gpg-agent[198609]: listening on: std=3 extra=5 browser=6 ssh=4
+2025-10-14 09:58:51,2025-10-14,09:58:51,kali,systemd[694]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2025-10-14 09:58:51,2025-10-14,09:58:51,kali,systemd[694]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2025-10-14 09:58:51,2025-10-14,09:58:51,kali,systemd[694]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+2025-10-14 09:58:51,2025-10-14,09:58:51,kali,systemd[694]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2025-10-14 09:58:51,2025-10-14,09:58:51,kali,systemd[694]: Closed ssh-agent.socket - OpenSSH Agent socket.
+2025-11-04 10:11:51,2025-11-04,10:11:51,kali,sudo[2599707]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh T-git@github.com
+2025-11-04 10:16:18,2025-11-04,10:16:18,kali,sudo[2601987]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh -T git@github.com
+2025-11-04 10:19:03,2025-11-04,10:19:03,kali,sudo[2603377]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh -T git@github.com
+2025-11-04 10:33:54,2025-11-04,10:33:54,kali,sudo[2610827]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh T-git@github.com
+2025-11-04 10:34:02,2025-11-04,10:34:02,kali,sudo[2610904]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/sudo ssh T-git@github.com
+2025-11-04 10:34:02,2025-11-04,10:34:02,kali,sudo[2610907]:     root : TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh T-git@github.com
+2025-11-04 10:34:19,2025-11-04,10:34:19,kali,sudo[2611055]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh -T
+2025-11-04 10:34:38,2025-11-04,10:34:38,kali,sudo[2611221]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh -T git@github.com
+2025-11-04 10:35:24,2025-11-04,10:35:24,kali,sudo[2611644]:   vmuser : TTY=pts/1 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh -T git@github.com
+2025-11-11 09:44:36,2025-11-11,09:44:36,kali,systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+2025-11-11 09:44:41,2025-11-11,09:44:41,kali,charon[3405685]: 00[LIB] loaded plugins: charon random nonce x509 revocation constraints pubkey pkcs1 pkcs7 dnskey sshkey pem openssl pkcs8 agent gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+2025-11-11 09:44:41,2025-11-11,09:44:41,kali,ipsec[3405685]: 00[LIB] loaded plugins: charon random nonce x509 revocation constraints pubkey pkcs1 pkcs7 dnskey sshkey pem openssl pkcs8 agent gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+2025-11-11 09:44:41,2025-11-11,09:44:41,kali,charon[3405873]: 00[LIB] loaded plugins: charon random nonce x509 revocation constraints pubkey pkcs1 pkcs7 dnskey sshkey pem openssl pkcs8 agent gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+2025-11-11 09:47:10,2025-11-11,09:47:10,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:10,2025-11-11,09:47:10,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:10,2025-11-11,09:47:10,kali,systemd[1]: Stopped target ssh-access.target - SSH Access Available.
+2025-11-11 09:47:19,2025-11-11,09:47:19,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:19,2025-11-11,09:47:19,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:20,2025-11-11,09:47:20,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:20,2025-11-11,09:47:20,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:24,2025-11-11,09:47:24,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:24,2025-11-11,09:47:24,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:34,2025-11-11,09:47:34,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:34,2025-11-11,09:47:34,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:35,2025-11-11,09:47:35,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:35,2025-11-11,09:47:35,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:35,2025-11-11,09:47:35,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:35,2025-11-11,09:47:35,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:36,2025-11-11,09:47:36,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:36,2025-11-11,09:47:36,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:36,2025-11-11,09:47:36,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:36,2025-11-11,09:47:36,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:38,2025-11-11,09:47:38,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:38,2025-11-11,09:47:38,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:39,2025-11-11,09:47:39,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:39,2025-11-11,09:47:39,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:39,2025-11-11,09:47:39,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:39,2025-11-11,09:47:39,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:42,2025-11-11,09:47:42,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:42,2025-11-11,09:47:42,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:44,2025-11-11,09:47:44,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:44,2025-11-11,09:47:44,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:45,2025-11-11,09:47:45,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:47:45,2025-11-11,09:47:45,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:48:32,2025-11-11,09:48:32,kali,"systemd[1]: sshd-unix-local.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-11 09:48:32,2025-11-11,09:48:32,kali,"systemd[1]: sshd-vsock.socket: Unit configuration changed while unit was running, and no socket file descriptors are open. Unit not functional until restarted."
+2025-11-21 13:32:06,2025-11-21,13:32:06,kali,sudo[2268801]:   vmuser : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh vmuser@10.0.0.11
+2025-11-21 13:35:06,2025-11-21,13:35:06,kali,sudo[2270555]:   vmuser : TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh.service
+2025-11-21 13:36:14,2025-11-21,13:36:14,kali,sudo[2271161]:   vmuser : TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-11-21 13:40:54,2025-11-21,13:40:54,kali,sudo[2273570]:   vmuser : TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh vmuser@10.0.0.11
+2025-11-21 13:42:18,2025-11-21,13:42:18,kali,sudo[2274299]:   vmuser : TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh vmuser@10.0.0.11
+2025-11-21 13:42:40,2025-11-21,13:42:40,kali,sudo[2274488]:   vmuser : TTY=pts/0 ; PWD=/home/vmuser ; USER=root ; COMMAND=/usr/bin/ssh 10.0.0.11
