@@ -2,14 +2,14 @@
 Timeline Creator – Tool will create a basic timeline tracker for system activities
 
 # Table of Contents
-- About
+- Overview
 - Features
 - Setup Instructions
 - Requirements
 - Contributions
 - Video Link
 
-# About
+# Overview
 We created a Forensics Timeline Builder tool that can be used to help accelerate investigations. Our tool will take a text/csv file, organize the contents chronologically, and give a written report of the logs. This is a quick alternative to manually organizing data. 
 
 # Features
