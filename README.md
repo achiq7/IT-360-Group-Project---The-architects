@@ -4,10 +4,10 @@ Timeline Creator – Tool will create a basic timeline tracker for system activi
 # Table of Contents
 - About
 - Features
-- Setup instructions
-- Installation
-- Contributing
-- Video link
+- Setup Instructions
+- Requirements
+- Contributions
+- Video Link
 
 # About
 We created a Forensics Timeline Builder tool that can be used to help accelerate investigations. Our tool will take a text/csv file, organize the contents chronologically, and give a written report of the logs. This is a quick alternative to manually organizing data. 
@@ -27,14 +27,14 @@ We created a Forensics Timeline Builder tool that can be used to help accelerate
 - Run create_report.py
 - View Forensics Timeline Builder pdf found in current director
 
-# Installation
+# Requirements
 - Python3
 - Libraries
     - csv
     - datetime
     - reportlab
 
-# Contributing
+# Contributions
 - D'Shanti
     - Code creation
     - Data creation
@@ -46,6 +46,6 @@ We created a Forensics Timeline Builder tool that can be used to help accelerate
     - README file
     - Presentation slides
 
-# Video link
+# Video Link
 
 
