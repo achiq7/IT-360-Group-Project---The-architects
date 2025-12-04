@@ -35,21 +35,24 @@ We created a Forensics Timeline Builder tool that can be used to help accelerate
     - reportlab
 
 # Contributions
+
+- Justin
+    - Presentation slide design
+    - Organized and added project sources
+    - Coordinated team meetings and communication
+    - Helped review final report for clarity
+
 - D'Shanti
     - Code creation
     - Data creation
     - Split report evenly
     - Presentation slides
+
 - Alyssa
     - Code creation
     - Split report evenly
     - README file
     - Presentation slides
-- Justin
-    -Presentation Slides
-    -Sources
-    -Set up Team meetings
-  
 
 # Video Link
 https://youtu.be/Fc7z2dKXolU
