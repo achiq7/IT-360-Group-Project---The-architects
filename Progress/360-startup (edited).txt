@@ -1,0 +1,80 @@
+"""
+IT360 group project start
+11-04-2025
+IT 360 Section 01
+"""
+# import os.path;
+import cvs
+from datetime import datetime
+
+INPUT_FILE = "ssh_logs.txt"
+OUTPUT_FILE = "ssh_timeline.csv"
+
+"""
+class for parsing through data
+"""
+
+
+    # reading textfile to list
+def readFile(filename: str) -> list[str]:
+    #create list named data
+    data = [] 
+        #opens textfile into foFile 
+        with open(filename, 'r') as foFile{ 
+            for line in foFile:
+                 line = line.strip()
+                 if line: # skip empty spaces
+                     data.append(line)
+        return data
+          
+def organize_By_Date(log_File: list[str]) -> list[dict]:
+    organizedLogs = [] #create list to hold all data
+        #for loop through given data using new variable
+    for line in log_File{
+           #split entry into 4 parts
+            #if length of breakUp is less than 5
+        parts = line.split(maxsplit=4)
+        if len(parts) < 5:
+            continue
+        month, day, time_str, host, message = parts
+
+        date_string = f"{month} {day} {time_str}" #create string to hold entirety of date
+
+        try:
+            dt = datetime.strptime(date_string, "%b %d %H:%M:%S")
+            dt = dt.replace(year = datetime.now().year)
+        except ValueError:
+            continue
+
+        organizedLogs.append({ #adding date to dictionary
+            "datetime": dt,
+            "date": dt.date().isoformat(),
+            "time": dt.time().isoformat(timespec="seconds"),
+            "host": host,
+            "message": message,
+        })
+    organizedLogs.sort(key=lamba e: e["datetime"])
+    return organizedLogs
+            
+def write_timeline(organizedLogs: list[dict], output_file: str) -> None:
+    fieldnames = ["datetime", "date", "time", "host", "message"]
+    with open(output_file, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for e in organizedLogs: 
+            row = e.copy()
+            row["datetime"] = e["datetime"].isoformat(sep=" ")
+            writer.writerow(row)
+
+def main():
+    log_File = read_File(INPUT_FILE)
+    organizedLogs = organize_By_Date(log_File)
+    write_timeline(organizedLogs, OUTPUT_FILE)
+    print(f"Wrote {len(organizedLogs)} organizedLogs to {OUTPUT_FILE}")
+
+if __name__ "__main__":
+    main()
+   
+
+
+
