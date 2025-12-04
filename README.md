@@ -17,7 +17,7 @@ We created a Forensics Timeline Builder tool that can be used to help accelerate
 - Parse through given log files
 - Extracts the timestamps and data
 - Sorts data chronologically for timeline analysis
-- Exports organized data into a CSV file to furthere analyze
+- Exports organized data into a CSV file to further analyze
 - Generate a PDF report of timeline
 - Formattig of the report
 
